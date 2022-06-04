@@ -25,49 +25,23 @@ background-color: #fdf1ec;
     
     nav{
    display: flex;
-  background-color: white;
-  opacity: 90%;
-  width: 100%;
-  border-color: #d29881;
-  
-  justify-content: center;
+  background-color: rgb(234, 133, 56);
+  justify-content: space-between;
 
-position: sticky;
-
-top: 0;
-
-  scroll-behavior: smooth;
-  
 
  
 
 }
 nav ul
 
-{   
-   display: flex;
-   padding: 0,100px;
-  
-
-
-
+{   list-style: none;
+    display: flex;
+    padding-left: 650px;
 
 
 }
-nav ul li{
-  list-style: none;
-
-}
-.fixed{
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 20;
-}
-
  .left{
-   
-  display: flex;
+     display: flex;
    font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
   justify-content: center;
@@ -77,10 +51,6 @@ nav ul li{
  max-width: 325px;
  margin: auto;
  margin-top: 5mm;
- margin-bottom: 5mm;
- 
- 
- 
 
 }
 
@@ -93,27 +63,22 @@ nav ul li{
     
     
 }
-
-
 nav ul li a {
-  display: block;
-    color: rgb(32, 17, 4);
-    font-size: 14px;
+    color: white;
+    font-size: 10px;
     text-decoration: none;
     font-size: medium;
-    border: 1px solid rgb(37, 17, 6);
+    border: 1px solid rgb(255, 255, 255);
+   
     box-sizing: content-box;
-    padding: 0 20px;
-    transition: 0.6s ease-in-out;
-    margin-right: 40px;
-    border-radius: 20px;
-
-  
+    padding-left: 2mm;
+    padding-right: 2mm;
+    margin: 30px;
 }
 nav ul li  :hover{
-   background-color: rgb(59, 58, 58);
+   background-color: white;
     transition-delay: 5ms;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 .about {
     display: flex;
@@ -147,9 +112,6 @@ nav ul li  :hover{
 
 
 
-}
-.hmm{
-  padding: 10px;
 }
 .signupform h2{
     color: white;
@@ -285,11 +247,13 @@ align-items: center;
     background: #1DA1F2;
   }
   .wrapper .button:nth-child(3):hover .icon{
-    background:   #bc2a8d ;
+    background: #E1306C;
   }
-  
   .wrapper .button:nth-child(4):hover .icon{
-    background: #9e0c0c;
+    background: #333;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
   }
   .wrapper .button .icon i{
     font-size: 25px;
@@ -316,55 +280,8 @@ align-items: center;
     color: #E1306C;
   }
   .wrapper .button:nth-child(4) span{
-    color: rgb(189, 29, 93);
+    color: #333;
   }
-  .signupform h2{
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-
-  }
-  .input-box{
-   border-radius: 20px;
-   padding: 10px;
-    margin: 10px 0;
-    border: 1px,solid saddlebrown;
-  width: 80%;
-    outline: none;
-  }
-  button{
-    color: rgb(0, 1, 3);
-    width: 80%;
-   
-    border-radius: 20px;
-font-size: 14px;
-margin: 5px 0;
-border: none;
-cursor: pointer;
-  }
-  .signup-btn{
-background-color: #ffffff;
-  }
-  .sigup-btn{
-    background-color:#ffffff;
-  }
-  hr{
-    margin-top: 20px;
-    width: 70%;
-    height: 3px;
-
-  }
-  .or{
-    color: white;
-    background-color:rgb(245, 159, 91);
-    width: 30px;
-    margin: -19px auto 19px;
-  }
-  .imj{
-    width: 90px;
-    margin-top: -70px;
-
-  }
-  a{
-    text-decoration: none;
-    color: #706eeb;
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
   }
